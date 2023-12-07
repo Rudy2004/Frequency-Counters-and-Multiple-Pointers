@@ -1,8 +1,4 @@
-/**
- * Build two frequency counters. If any of the message characters are not
- *  found in the 'letters' characters, or if there are not enough of them,
- *  return false. Otherwise return true.
- */
+
 function constructNote(message, letters) {
   const lettersFreq = {};
   const messageFreq = {};
